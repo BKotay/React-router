@@ -1,0 +1,82 @@
+/* Simple navigation bar styling */
+body {
+background-color: silver;
+font-family: 'Anton SC', cursive;
+}
+
+nav {
+padding: 35px;
+
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 30px;
+  font-size: 2rem;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 3rem;
+}
+
+a:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: darkgrey;
+}
+
+
+/* Highlight active link */
+.active-link {
+  font-weight: bold;
+  color: darkcyan;
+}
+
+/* Add some padding and centering for pages */
+div {
+  text-align: center;
+  margin-top: 50px;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+div {
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 8px;
+  margin-top: 5px;
+}
+
+button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
